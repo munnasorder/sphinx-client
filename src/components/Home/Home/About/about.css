@@ -1,0 +1,29 @@
+.about-title {
+    font-family: Lato, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.about-hr {
+    width: 80px;
+    border-bottom: 2px solid #36b4b6;
+    margin: 0 auto;
+}
+.about-banner {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 0px;
+    margin-top: 41px;
+    text-align: center;
+}
+.about-description {
+    color: rgb(48, 48, 48);
+    line-height: 24px;
+    text-align: center;
+    font-size: 15px;
+}

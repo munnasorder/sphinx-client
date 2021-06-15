@@ -1,0 +1,75 @@
+.pricing-container {
+    background-color: #f7f7f7;
+    padding-bottom: 80px;
+}
+.pricing-title {
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    color: #111;
+    font-weight: 700;
+    text-align: center;
+}
+.pricing-hr {
+    width: 80px;
+    margin: 0 auto;
+    border-bottom: 2px solid #36b4b6;
+}
+.pricing-desc {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-top: 35px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.plan {
+    padding-top: 25px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #111;
+    text-align: center;
+}
+.price {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+    color: #56B665;
+    text-align: center;
+}
+.desc {
+    font-weight: 300;
+    font-size: 21px;
+    color: #999;
+    margin: -12px 0 25px;
+    text-align: center; 
+}
+.service-item > li {
+    text-align: center;
+    list-style: none;
+    color: #777777;
+    line-height: 40px;
+}
+.plan-btn {
+    background-color: orange;
+    width: 170px;
+    height: 42px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: all 0.5s ease;
+}
+.plan-btn:hover {
+    background-color: white;
+    border: 2px solid orange;
+}
+.pricing-card {
+    min-height: 632px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px #efefef;
+    border-radius: 5px;
+}

@@ -1,0 +1,84 @@
+.service-container {
+    padding-top: 80px;
+    background-color: #f7f7f7;
+    padding-bottom: 80px;
+}
+.service-title {
+    text-align: center;
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin-bottom: 20px;
+    padding: 0;
+    color: #111;
+    font-weight: 700;
+}
+.service-hr {
+    width: 100px;
+    border-bottom: 2px solid #36b4b6;
+    margin: 0 auto;
+}
+.card-hr {
+    width: 50px;
+    border-bottom: 2px solid #36b4b6;
+    margin: 0 auto;
+}
+.service-desc {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 0;
+    margin-top: 41px;
+    color: #303030;
+    text-align: center;
+}
+.main-card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px rgb(255, 251, 251);
+}
+.card-title {
+    text-align: center!important;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.card-description {
+    padding-top: 30px;
+    text-align: center!important;
+    color: #303030;
+}
+.card-image:hover {
+    transition: ease-in-out 0.5s;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.discount-title {
+    font-size: 3.125rem;
+    font-weight: 900;
+    margin: 0 0 0.5em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.discount-container {
+    height: 80vh;
+    background-image: url("../../../../images/image_02-7.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.discount-btn {
+    background-color: orange;
+    width: 192px;
+    height: 50px;
+    font-family: 'Lato';
+    border: 2px solid orange;
+    border-radius: 25px;
+    margin-top: 30px;
+    outline: none;
+    transition: all 0.5s ease;
+}
+.discount-btn:hover {
+    background-color: white;
+    border: 2px solid orange;
+}

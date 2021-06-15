@@ -1,0 +1,76 @@
+.custom-hr {
+    width: 120px;
+    border-bottom: 2px solid #36B4B6;
+    margin: 0 auto;
+}
+.main-para {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 0;
+    margin-top: 41px;
+    margin-bottom: 40px;
+}
+.service-disc {
+    color: #585151;
+    line-height: 24px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.btn-more {
+    background-color: #36b4b6;
+    color: white;
+    width: 145px;
+    transition: all 0.5s ease;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid #36b4b6;
+}
+.btn-more:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #36b4b6;
+}
+.section-container {
+    margin-top: 80px;
+    height: 100vh;
+    background-image: url("../../../../images/sectionbg1.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.title-container {
+    margin-bottom: 80px;
+}
+.env-title {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.env-hr {
+    border-bottom: 2px solid white;
+    width: 120px;
+    margin: 0 auto;
+}
+.env-footer {
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-family: auto;
+}
+.desc-style {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    color: #fff;
+    line-height: 24px;
+    padding-top: 65px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
