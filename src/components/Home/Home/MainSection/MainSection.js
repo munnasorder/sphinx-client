@@ -8,6 +8,7 @@ import envIcon from '../../../../images/icon/growth.svg';
 import communication from '../../../../images/icon/chat.svg'
 import customers from '../../../../images/icon/customer.svg'
 import EnvItem from './EnvItem';
+import {Fade, Zoom} from 'react-reveal';
 
 
 const MainSection = () => {
@@ -51,31 +52,43 @@ const MainSection = () => {
                 </div>
                 <Row style={{margin: '0'}}>
                     <Col md={3}>
-                        <div className="text-right">
-                            <FontAwesomeIcon style={{color: '#36B4B6', fontSize: '45px'}} icon={faGem} />
-                            <h5 className="mt-3">SPARKLING CLEAN</h5>
-                            <p className="service-disc">We keep your home sparkling clean and germ free. Our disinfecting process kills 99% of common bacteria and viruses.</p>
-                        </div>
-                        <div className="text-right">
-                            <FontAwesomeIcon style={{color: '#36B4B6', fontSize: '45px'}} icon={faUmbrella} />
-                            <h5 className="mt-3">INSURED AND BONDED</h5>
-                            <p className="service-disc">Our cleaners are insured and bonded so no need to worry about your apartment, office or garden.</p>
-                        </div>
+                        <Fade left>
+                            <div className="text-right">
+                                <FontAwesomeIcon style={{color: '#36B4B6', fontSize: '45px'}} icon={faGem} />
+                                <h5 className="mt-3">SPARKLING CLEAN</h5>
+                                <p className="service-disc">We keep your home sparkling clean and germ free. Our disinfecting process kills 99% of common bacteria and viruses.</p>
+                            </div>
+                        </Fade>
+                        
+                        <Fade left>
+                            <div className="text-right">
+                                <FontAwesomeIcon style={{color: '#36B4B6', fontSize: '45px'}} icon={faUmbrella} />
+                                <h5 className="mt-3">INSURED AND BONDED</h5>
+                                <p className="service-disc">Our cleaners are insured and bonded so no need to worry about your apartment, office or garden.</p>
+                            </div>
+                        </Fade>                      
                     </Col>
                     <Col md={6} className="text-center">
-                        <img className="w-80 img-fluid img-thumbnail" style={{borderRadius: '50%'}} src={babyImg} alt="" />
+                        <Zoom>
+                            <img className="w-80 img-fluid img-thumbnail" style={{borderRadius: '50%'}} src={babyImg} alt="" />
+                        </Zoom>
                     </Col>
                     <Col md={3}>
-                        <div>
-                            <FontAwesomeIcon style={{color: '#36B4B6', fontSize: '45px'}} icon={faHome} />
-                            <h5 className="mt-3">LEADING TECHNOLOGIES</h5>
-                            <p className="service-disc">We use safe hospital-grade disinfectants, HEPA filtrations and microfiber cleaning cloths to reduce cross contamination.</p>
-                        </div>
-                        <div>
-                            <FontAwesomeIcon style={{color: '#36B4B6', fontSize: '45px'}} icon={faFemale} />
-                            <h5 className="mt-3">RELIABLE CREWS</h5>
-                            <p className="service-disc">Our reliable and stable crews understand your specific house and office clearning service needs.</p>
-                        </div>
+                        <Fade right>
+                            <div>
+                                <FontAwesomeIcon style={{color: '#36B4B6', fontSize: '45px'}} icon={faHome} />
+                                <h5 className="mt-3">LEADING TECHNOLOGIES</h5>
+                                <p className="service-disc">We use safe hospital-grade disinfectants, HEPA filtrations and microfiber cleaning cloths to reduce cross contamination.</p>
+                            </div>
+                        </Fade>
+                        
+                        <Fade right>
+                            <div>
+                                <FontAwesomeIcon style={{color: '#36B4B6', fontSize: '45px'}} icon={faFemale} />
+                                <h5 className="mt-3">RELIABLE CREWS</h5>
+                                <p className="service-disc">Our reliable and stable crews understand your specific house and office clearning service needs.</p>
+                            </div>
+                        </Fade>
                     </Col>
                 </Row>
                 <div className="text-center mt-5 mb-5">

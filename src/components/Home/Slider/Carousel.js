@@ -8,6 +8,7 @@ import './carousel.css';
 import NavBar from '../../NavBar/NavBar';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
+import {Fade, Zoom, Bounce } from 'react-reveal';
 
 const Carousel = () => {
     const content = [
@@ -45,9 +46,15 @@ const Carousel = () => {
                     style={{ background: `url('${item.image}') no-repeat center center` }}
                   >
                     <div className="inner">
-                      <h1 className="slider-header">{item.title}</h1>
-                      <p>{item.description}</p>
-                      <Link to="#"><Button className="slider-main-btn">{item.button}</Button></Link>
+                      <Fade left>
+                        <h1 className="slider-header">{item.title}</h1>
+                      </Fade>
+                      <Zoom>
+                        <p>{item.description}</p>
+                      </Zoom>                                        
+                      <Bounce right>
+                        <Link to="#"><Button className="slider-main-btn">{item.button}</Button></Link>
+                      </Bounce>                     
                     </div>
                   </div>
                 ))}
